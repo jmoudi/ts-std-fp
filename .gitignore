@@ -1,0 +1,28 @@
+﻿# See http://help.github.com/ignore-files/ for more about ignoring files.
+**/dist/*
+**/node_modules/*
+node_modules
+*/node_modules
+**/tmp
+**/temp
+/**/tmp
+/**/temp
+**/*cache*/**
+/**/*cache*
+**/__examples__/*
+**/__old__
+**/__backup__/*
+**/__temp__/*
+logs/*
+**/*.log
+**/*.md
+**/*.yml
+Thumbs.db
+
+*telemetry*
+
+## Windows
+Thumbs.db
+Desktop.ini
+**/Thumbs.db
+**/Desktop.ini

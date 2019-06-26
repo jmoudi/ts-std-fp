@@ -1,0 +1,17 @@
+{
+  "extends": "/home/jm/Projects/Config/tsc/tsconfig.app",
+
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": ".",
+    "keyofStringsOnly": true,
+    "paths": {
+      "*": [ "*" ],
+      "@/*" : [ "./src/*"],
+      "@Modules/*" : [ "/home/jm/Projects/Modules/*"],
+    },
+  },
+  "include": [
+    "./src/**/*" 
+  ]
+}

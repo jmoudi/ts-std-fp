@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "rootDir": "./src/",
+    //"outDir": "./build/"
+    "outFile": "./dist/index.js"
+  },
+  // TODO: include `babel-preset-jest` if it's ever in TS even though we don't care about its types
+  "references": [
+  ],
+  "exclude": [
+    "**/__ignored__",
+    "**/*.test.ts",
+    "build",
+    "dist"
+  ]
+}

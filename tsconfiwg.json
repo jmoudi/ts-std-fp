@@ -1,0 +1,36 @@
+{
+    "extends": "/home/jm/Projects/Config/tsc/tsconfig.module-composite",
+    "compilerOptions": {
+      "allowJs": false,
+      //"declarationMap": true,
+      //"declarationDir": "./dist/",
+      "skipLibCheck": true,
+/*       "allowSyntheticDefaultImports": true,
+      "esModuleInterop": true, */
+      "module": "esnext",
+      "outDir": "./dist/",
+      "rootDirs": ["./src/", "/home/jm/Projects/Modules/"],
+      "baseUrl": ".",
+      "paths": {
+        "*": [ "*" ],
+        "@/*" : [ "./src/*"],
+        "@Modules/*" : [ "/home/jm/Projects/Modules/*"]
+      },
+      
+    },
+    "references": [
+      //{"path": ""}
+    ],
+    "include": [
+      "./src/**/*.ts" 
+    ],
+    "exclude": [
+      "./test/",
+      "./dist/",
+      "node_modules",
+      "**/__ignored__",
+      "**/*.test.ts",
+      "**/*.spec.ts"
+    ]
+  }
+  
