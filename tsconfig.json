@@ -1,17 +1,13 @@
 {
-  "extends": "./tsconfig.base.json",
+  "extends": "/home/jm/Projects/Config/tsc/tsconfig.module",
   "compilerOptions": {
+    "types": [
+      "lodash", "node"
+    ],
+    "baseUrl": ".",
     "rootDir": "./src/",
-    //"outDir": "./build/"
-    "outFile": "./dist/index.js"
+    "outDir": "./dist/"
   },
-  // TODO: include `babel-preset-jest` if it's ever in TS even though we don't care about its types
-  "references": [
-  ],
-  "exclude": [
-    "**/__ignored__",
-    "**/*.test.ts",
-    "build",
-    "dist"
-  ]
+  "include": [ "./src/**/*.ts", "./src/**/*.tsx"],
+  "files": []
 }

@@ -1,10 +1,15 @@
-export * from "./read";
-export * from "./rimraf";
+export * from "./array";
+export * from "./assert";
+export * from "./collection-utils";
+export * from "./compare-utils";
+export * from "./compare";
+export * from "./filter";
+export * from "./find";
+export * from "./function-utils";
+export * from "./lifecycle";
+export * from "./map";
+export * from "./merge";
+export * from "./pipe";
+export * from "./sort";
+export * from "./type-utils";
 export * from "./types";
-export * from "./walk";
-export * from "./watch";
-export * from "./write";
-export * from "./zip";
-//export * from "fs-extra";
-
- 
